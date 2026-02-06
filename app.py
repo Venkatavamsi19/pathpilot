@@ -23,7 +23,7 @@ if "visible_count" not in st.session_state:
     st.session_state.visible_count = RESULTS_PER_LOAD
 
 # ---------------- UI ----------------
-st.title("💼 AI Job Recommendation System")
+st.title("💼 PathPilot an AI based Career Recommendation System")
 st.markdown("### NLP-powered career recommendations using lightweight AI")
 
 # ---------------- PART 1 ----------------
@@ -114,4 +114,5 @@ if st.button("🔄 Reset"):
     st.session_state.all_results = []
     st.session_state.visible_count = RESULTS_PER_LOAD
     st.rerun()
+
 
