@@ -2,7 +2,7 @@ import streamlit as st
 from recommender import JobAIRecommender
 
 st.set_page_config(
-    page_title="AI Job Recommendation System",
+    page_title="PathPilot an AI based Career Recommendation System",
     page_icon="💼",
     layout="wide"
 )
@@ -114,3 +114,4 @@ if st.button("🔄 Reset"):
     st.session_state.all_results = []
     st.session_state.visible_count = RESULTS_PER_LOAD
     st.rerun()
+
